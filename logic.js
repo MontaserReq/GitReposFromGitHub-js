@@ -40,7 +40,7 @@ fetch(`https://api.github.com/users/${inputFiled.value}/repos`)
         //url text
         let textUrl=document.createTextNode(`Visit`);
         //add url to element
-        url.href=`https://github.com/ElzeroWebSchool/${info.name}`;
+        url.href=`https://github.com/${inputFiled.value}/${info.name}`;
         //show in new tap
         url.setAttribute("target",'_blank')
         //add text to url
