@@ -30,6 +30,9 @@ body{
     color: white;
     font-weight: 600;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
 }
 .show-repos{
     padding: 20px;
@@ -87,9 +90,7 @@ body{
         justify-content: center;
         width: 100%;
     }
-    .right-side span{
-        width: 80px;
-    }
+    .right-side span,
     .right-side a{
         width: 80px;
     }
